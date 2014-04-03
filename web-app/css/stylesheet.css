@@ -1,0 +1,24 @@
+.lnks {font-size:11px;color:#2974ab; line-height:18px; font-family:verdana,arial; text-align:right; padding:0px 15px 0px 0px;}
+.lnks a {color: #2974ab; text-decoration: underline}
+.lnks a:hover {color: #2974ab; text-decoration: none}
+
+.lft-bg {background:url(gifs/left-tab-bg.gif); height:33px; width:225px;}
+
+.lft-lnks {font-size:13px;color:#0d73a8; font-family:verdana,arial; padding:8px 0px 0px 20px; font-weight:bold;}
+.lft-lnks a {color: #0d73a8; text-decoration: none;}
+.lft-lnks a:hover {color: #0d73a8; text-decoration: underline;}
+
+.top-lnks {font-size:12px;color:#ffffff; font-family:arial,verdana; padding:0px 0px 3px 10px; font-weight:bold;}
+.top-lnks a {color: #ffffff; text-decoration: none;}
+.top-lnks a:hover {color: #ffffff; text-decoration: underline;}
+
+.path-bg { background-color:#edeef1; height:23px; width:100%;}
+
+.foot-txt {font-size:11px;color:#646661; font-family:arial,verdana; padding:0px 15px 3px 0px; text-align:right}
+.foot-txt a {color: #646661; text-decoration: none;}
+.foot-txt a:hover {color: #646661; text-decoration: underline;}
+
+.tab-txt {font-size:11px;color:#000000; font-family:verdana,arial; font-weight:bold;}
+.tab-txt a {color: #000000; font-weight:normal; text-decoration: underline;}
+.tab-txt a:hover {color: #000000; text-decoration: none;}
+

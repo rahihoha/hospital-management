@@ -1,0 +1,83 @@
+div.fpsCalendar {
+	background-color: #afeaa0;
+	border: 1px solid #858ebf;
+	z-index: 10000;
+	position: absolute;
+	padding: 0px;
+}
+iframe.fpsCalendar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 9999;
+}
+img.fpsCalendar {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	display: inline;
+	position: relative;
+	top: 2px;
+}
+table.fpsCalendar {
+	border-spacing: 0;
+	border-collapse: collapse;
+	border: 1px solid #356f2f;
+	font-family: "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+	font-size: 12px;
+}
+td.fpsCalendar {
+	background-color: #e6ffe6;
+	border: 1px solid #356f2f;
+	padding: 2px;
+	text-align: center;
+}
+td.fpsCalendarActive {
+	background-color: #ced4ef;
+	color: #000000;
+	cursor: pointer;
+}
+td.fpsCalendarActive:hover {
+	background-color: #ffc887;
+}
+td.fpsCalendarCurrent {
+	color: #ffffff;
+	background-color: #858ebf;
+	cursor: pointer;
+}
+td.fpsCalendarCurrent:hover {
+	background-color: #ffc887;
+}
+th.fpsCalendar {
+	white-space: nowrap;
+	font-weight: normal;
+	border: 1px solid #356f2f;
+	padding: 2px;
+	text-align: center;
+	background-color: #e6ffe6;
+}
+select.fpsCalendar1 {
+	font-size: 12px;
+}
+select.fpsCalendar {
+	font-size: 12px;
+	border: 1px solid #858ebf;
+}
+.fpsCalendarFontSize1 {
+	font-size: 12px;
+}
+.fpsCalendarFontSize2 {
+	font-size: 14px;
+}
+a.fpsCalendar {
+	text-decoration: none;
+	color: black;
+	border: 0;
+}
+a.fpsCalendar:hover {
+	color: #ffffff;
+	background-color: #858ebf;
+	text-decoration: none;
+	border: 0;
+}

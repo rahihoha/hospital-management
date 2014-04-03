@@ -1,0 +1,289 @@
+/*-----------------------------------Corporate Home Page CSS -------------------------------------------*/
+.bgtop
+{
+background-image:url(../images2/top_header_bg.jpg);
+background-repeat:repeat-x;
+}
+.buttonbg
+{
+background-image:url(../images2/gif/button_BG.gif);
+background-repeat:repeat-x;
+}
+.buttonspace
+{
+background-image:url(../images2/gif/button_spacer.gif);
+background-repeat:repeat-y;
+}
+.lefmiddle
+{
+background-image:url(../images2/gif/left_midlle.gif);
+background-repeat:repeat-x;
+}
+.red
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:red;
+font-size:11px;
+font-weight:normal;
+}
+
+.reportHeader
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:white;
+font-size:11px;
+font-weight:bold;
+}
+.redTxt
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#FF4A85;
+font-size:11px;
+font-weight:bold;
+}
+.purpleTxt
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:purple;
+font-size:11px;
+font-weight:bold;
+}
+.greenTxt
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:green;
+font-size:11px;
+font-weight:bold;
+}
+
+.reportTxt
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:yellow;
+font-size:11px;
+font-weight:normal;
+}
+.middlespacer
+{
+background-image:url(../images2/gif/middle_spacer.gif);
+background-repeat:repeat-x;
+}
+.buttonspacer
+{
+background-image:url(../images2/gif/industry_details_middle.gif);
+background-repeat:repeat-x;
+}
+.toplink
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#FFFFFF;
+font-weight:bold;
+}
+.toplink2
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#405260;
+font-weight:bold;
+}
+.gtalk
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#FFFFFF;
+font-weight:normal;
+}
+.leftlink
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight:normal;
+margin-left:11px;
+}
+.pollution
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+font-weight:bold;
+color:#8E9397;
+padding-top:46px;
+padding-bottom:34px;
+padding-left:15px;
+padding-right:26px;
+}
+.pollution2
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+font-weight:normal;
+color:#8E9397;
+padding-top:46px;
+padding-bottom:34px;
+padding-left:15px;
+padding-right:26px;
+}
+.foot-text
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#666666;
+padding-right:15px;
+padding-top:15px;
+}
+
+.draftbutton{
+width:120px;
+height:22px;
+margin: 0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:white;
+font-weight:normal;
+padding: 0;
+border: 0;
+border-color:transparent;
+background-image:url(../images2/gif/blue_button.gif);
+overflow: visible;
+}
+
+.actionbutton{
+width:65px;
+height:22px;
+margin: 0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:white;
+font-weight:normal;
+padding: 0;
+border: 0;
+border-color:transparent;
+background-image:url(../images2/gif/blue_button.gif);
+overflow: visible;
+}
+
+ 
+.actionbutton:hover{
+width: 65px;
+height: 22px;
+margin: 0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:white;
+font-weight:normal;
+padding: 0;
+border: 0;
+border-color:transparent;
+background-image:url(../images2/gif/gray_button.gif) ;
+overflow: visible;
+}
+.innerlink
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#186DB5;
+font-size:11px;
+}
+
+.error
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#CC0000;
+font-size:13px;
+}
+
+.sidetxt 
+{
+font: normal;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+color: maroon;
+}
+div.autocomplete {
+
+position:absolute;
+width:250px;
+background-color:#8cafea;
+margin:0px;
+padding:0px;
+overflow:hidden;
+border: 1px solid;
+}
+div.autocomplete ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+	}
+	div.autocomplete ul li.selected {
+	 background-color: #294597;
+	  color: #ffffff
+	  }
+	  div.autocomplete ul li {
+	  list-style-type:none;
+	  display:block;
+	  margin:0 0 0 5;
+	  padding:2px;
+	  height:17px;
+	  cursor:pointer;
+	  }
+
+.red
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:red;
+font-size:11px;
+font-weight:normal;
+}
+
+.green
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:green;
+font-size:11px;
+font-weight:normal;
+}
+
+.blue1
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:purple;
+font-size:11px;
+font-weight:normal;
+}
+div.autocomplete1 {
+
+position:absolute;
+width:250px;
+height: 160px;
+background-color:#8cafea;
+margin:0px;
+padding:0px;
+overflow: auto;
+border: 1px solid;
+}
+div.autocomplete1 ul {
+	list-style-type:none;
+	width:250px;
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+	}
+	div.autocomplete1 ul li.selected {
+	 background-color: #294597;
+	 width:250px;
+	  color: #ffffff;
+	 
+	  }
+	  div.autocomplete ul li {
+	  list-style-type:none;
+	  width:250px;
+	  display:block;
+	  margin:0 0 0 5;
+	  padding:2px;
+	  height:15px;
+	  cursor:pointer;
+	  overflow:auto;
+	  }
+
+
+

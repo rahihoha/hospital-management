@@ -1,0 +1,10 @@
+/* CSS Document */
+body {margin:0px; padding:0px; background-color:#76787A;}
+.welcome {font:normal 11px tahoma, arial, verdana; color:#000000; }
+.textbox {font:normal 11px tahoma, arial; color:#666666; height:14px;}
+.textbox1 {font:normal 11px tahoma, arial; color:#666666;}
+.label {color:#666666; font:normal 11px tahoma, arial, verdana;}
+.menu {color:#ffffff; font:normal 11px tahoma, arial, verdana; height:22px; line-height:22px;}
+.head {color:#ffffff; font:bold 18px tahoma, arial, verdana;}
+.text {color:#666666; font:normal 11px tahoma, arial, verdana; padding:10px; line-height:17px;}
+.footer {color:#ffffff; font:bold 10px tahoma, arial, verdana;}

@@ -1,0 +1,177 @@
+
+
+
+    
+<g:hiddenField name="tunt1" value="${tunt1}" />
+	 <% String cont=request.getContextPath(); %>
+<table width="100%" border="0" bordercolor="red" cellspacing="0" cellpadding="0">
+							<tr>
+							
+								
+							</tr>
+							<tr>
+								<td valign="top" bgcolor="#EEEEEE" style="padding-top:8px; padding-bottom:8px;">
+									<div>       										
+									
+										<form id="form1" name="form1" method="post" action="userMaster/doLogin">  
+											<div id="t" align="center" >
+										
+					
+											<g:if test="${flash.message}">
+												<div class="style1"> 
+													<span class="error">${flash.message}</span><br/>
+												</div>
+											</g:if>
+					
+											</div>
+											<table width="95%"  border="0" align="center" cellpadding="0" cellspacing="0" id="countrytabs" >
+     <tr>
+              <br>
+               <td width="95%" align="left" class="headngbig" bgcolor=""><b>LOGIN DETAILS :</b> </td></tr>
+             </table>
+             <table></table>
+											<table>
+											<tr>
+											</tr>
+											<tr>
+										
+											</tr><tr>
+											</tr>
+											</table>
+											
+											<div class="login">User ID</div>
+											<div> <input type="text" id="userId" name='userId' class="form1" /></div>
+											<div class="clear"></div>
+											<table>
+											<tr>
+											</tr>
+											<tr>
+											</tr><tr>
+											</tr><tr>
+											
+											</tr>
+											<tr>
+											
+											</tr><tr>
+											</tr><tr>
+											</tr>
+											
+											</table>
+											
+											<div class="login">Password</div>
+											<div> <input type="password" id="password" name='password' class="form1" /></div>
+											<div class="clear"></div>
+											<div><input type ="hidden" name = "browserDetails" id="browserDetails" value=""><div>
+											
+						                  	    
+																				
+										    </form>
+										
+											<div class="maintext1" align="left"> <g:link controller="industryRegMaster" action="create1">New User Registration</g:link> &nbsp;&nbsp;		<g:link controller="indCatMaster" action="forgetPassword">Forget Password</g:link>
+											</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top">
+								<a href="<%=cont%>/userMaster/suggestionfeedback.gsp">
+								<img src="images/feedack.gif" width="268" height="70" border="0"  />
+								</a></td>
+							</tr>
+						
+						<tr>
+								<td valign="top" background="images/bg2.gif" style="background-repeat:no-repeat;">
+									<img src="images/fee_calc.gif" alt="Fee Calculator" width="113" height="22" hspace="12" vspace="8" />
+									<div class="box2">
+										<!-- <div class="maintext"> -->
+											<g:form name="myform">
+												<table width="275" border="0" cellpadding="2" cellspacing="1" bordercolor="#FFFFFF">
+													<tr>
+														<td colspan="2" >
+															<div align="center"><span class="style3 style7">For New Industry Only</span></div>
+														</td>
+														
+													</tr>
+													<tr>
+														<td width="10%" >
+															<div align="left"><span class="style3 style5">Consent Type:</span></div>
+														</td>
+														<td width="90%" ><span class="style6">
+															 <input title="Consent to Establish" id="consentTypeY" name="consentType" type="radio" value="CTE" checked="checked" onclick="javascript:hidediv();"  />CTE
+															 <input title="Consent to Operate" id="consentTypeY" name="consentType" type="radio" value="CTO" onclick="javascript:hidediv();"/>CTO
+															</span>
+														</td>
+													</tr>
+													
+												
+													
+													<tr>
+													<td colspan="2" width="100%">
+													<div style="display:none; border:0;"  id="selectTemp6"  >
+													<table width="100%">
+													
+														<td width="25%" >
+															<div align="left"><span class="style3 style5">Industry Type:</span></div>
+														</td>
+														<td width="75%">
+															<span class="style6">
+																<input id="indTypR" name="indTyp" type="radio" value="RED" checked="checked"/>Red
+																<input id="indTypO" name="indTyp" type="radio" value="ORANGE" />Orange
+																<input id="indTypG" name="indTyp" type="radio" value="GREEN" />Green
+															</span>
+														</td>
+													
+													</table>
+													</div>
+													</td>
+													</tr>
+										
+													<tr>
+														<td  class="style3" width="10%"><div align="left" class="style5">Capital Investment: </div></td>
+														<td width="90%" >
+															<input id="capital" name="capital" type="text" class="txt4" size="15">  <span class="txt" style="font-size: 8pt">(in Lakhs)</span>
+														</td>
+													</tr>
+													<tr>
+														<td  width="10%" class="style3"><div align="left" class="style7">Consent Fee: </div></td>
+														<td width="90%"class="style3 style7 style5"><input id="result1" size="15" class="txt4" name="result1" type="text" readonly="readonly"><a><img src="images/rupeegray.jpg" alt="Query" border="0" width="17px" /></a></td>
+													
+													</tr>
+													
+													
+													
+													<tr align="center" >
+													<td  align="center" colspan="2" >
+													<div style="display:none; border:0;"  id="selectTemp66" align="center" >
+													<table width="100%" align="center">
+													
+														<td width="25%" align="center">
+													<a href="javascript:{}" onclick="return Calculate();" align="center" class="bulletinside"><b>Calculate</b></a>
+														</td>
+												
+													</table>
+													
+													</div>
+													</td>
+													</tr>
+													
+													
+													<tr align="center" >
+													<td  align="center" colspan="2" >
+													<div style="display:block; border:0;"  id="selectTemp666" >
+													<table width="10%" align="center">
+													<td colspan="5"></td>
+													<td width="75%" align="center">
+													
+													<a href="javascript:{}" onclick="return Calculate1();" align="center" class="bulletinside"><b>Calculate</b></a>
+													
+														</td>
+													</table>
+													</div>
+													</td>
+													</tr>
+													
+									</g:form>
+						
+					
+						</table>

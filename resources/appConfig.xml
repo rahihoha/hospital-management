@@ -1,0 +1,5 @@
+<CONFIG>
+	<dbConfig-prod>jdbc:postgresql://localhost:5432/hospital</dbConfig-prod>
+	<DBLogin>postgres</DBLogin>
+	<DBPwd>nic</DBPwd>
+</CONFIG>
